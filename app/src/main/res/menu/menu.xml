@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Cart"
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/baseline_shopping_cart_24"/>
+    <item android:title="History"
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/baseline_history_24"/>
+    <item android:title="Profile"
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_account_box_24"/>
+</menu>
