@@ -13,14 +13,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityStart"
+            android:name=".ActivityLogin"
             android:exported="false" />
         <activity
             android:name=".ActivityRegister"
             android:exported="false" />
-        <activity
-            android:name=".ActivityLogin"
-            android:exported="false" />
+      
         <activity
             android:name=".activity_main_splashcreen"
             android:exported="true">

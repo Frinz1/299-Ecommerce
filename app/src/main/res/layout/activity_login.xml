@@ -32,12 +32,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="LogIn Your Account"
         android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -80,8 +81,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Doesn't Have An Account Yet?"
-        android:clickable="true"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintStart_toStartOf="@+id/button"
