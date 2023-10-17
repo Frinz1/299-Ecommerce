@@ -18,7 +18,10 @@
         <activity
             android:name=".ActivityRegister"
             android:exported="false" />
-      
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
         <activity
             android:name=".activity_main_splashcreen"
             android:exported="true">
@@ -28,9 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>

@@ -7,7 +7,7 @@ import com.example.myapplication.databinding.ActivityLoginBinding
 
 class ActivityLogin : AppCompatActivity() {
     private val binding:ActivityLoginBinding by lazy {
-        ActivityLoginBinding.inflate( layoutInflater)
+        ActivityLoginBinding.inflate(layoutInflater)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
