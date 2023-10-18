@@ -6,13 +6,16 @@
     android:background="@drawable/whitebackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_main_splashcreen">
+    tools:context=".Activity_main_Splash_screen">
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/q" />
+        android:src="@drawable/q"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,6 +24,9 @@
         android:layout_marginBottom="111dp"
         android:text="299 Ecommerce App"
         android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
