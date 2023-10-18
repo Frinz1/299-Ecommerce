@@ -14,12 +14,12 @@ class ActivityLogin : AppCompatActivity() {
         setContentView(binding.root)
         binding.button.setOnClickListener {
             val intent=Intent(this,ActivityRegister::class.java)
-            startActivity(intent)
+            Activity_main_Splash_screen(intent)
 
         }
         binding.donthavebutton.setOnClickListener {
             val intent=Intent(this,ActivityRegister::class.java)
-            startActivity(intent)
+            Activity_main_Splash_screen(intent)
 
         }
     }
