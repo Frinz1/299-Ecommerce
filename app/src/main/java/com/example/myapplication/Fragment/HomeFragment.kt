@@ -31,30 +31,30 @@ class HomeFragment : Fragment() {
 
     }
 
-        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-            super.onViewCreated(view, savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-            val imageList = ArrayList<SlideModel>()
-            imageList.add(SlideModel(R.drawable.q, ScaleTypes.FIT))
-            imageList.add(SlideModel(R.drawable.baseline_home_24, ScaleTypes.FIT))
-            imageList.add(SlideModel(R.drawable.baseline_account_box_24, ScaleTypes.FIT))
+        val imageList = ArrayList<SlideModel>()
+        imageList.add(SlideModel(R.drawable.sale, ScaleTypes.FIT))
+        imageList.add(SlideModel(R.drawable.sale, ScaleTypes.FIT))
+        imageList.add(SlideModel(R.drawable.sale, ScaleTypes.FIT))
 
-            val imageSlider = binding.imageSlider
-            imageSlider.setImageList(imageList)
-            imageSlider.setImageList(imageList, ScaleTypes.FIT)
+        val imageSlider = binding.imageSlider
+        imageSlider.setImageList(imageList)
+        imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
-            imageSlider.setItemClickListener(object :ItemClickListener{
-                override fun doubleClick(position: Int) {
-                    TODO("Not yet implemented")
-                }
+        imageSlider.setItemClickListener(object :ItemClickListener{
+            override fun doubleClick(position: Int) {
+                TODO("Not yet implemented")
+            }
 
-                override fun onItemSelected(position: Int) {
-                    val itemPosition = imageList[position]
-                    val itemMessage = "Selected Image $position"
-                    Toast.makeText(requireContext(),itemMessage,Toast.LENGTH_SHORT).show()
+            override fun onItemSelected(position: Int) {
+                val itemPosition = imageList[position]
+                val itemMessage = "Selected Image $position"
+                Toast.makeText(requireContext(),itemMessage,Toast.LENGTH_SHORT).show()
 
-                }
-            })
+            }
+        })
     }
 
     companion object {
